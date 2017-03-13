@@ -1,3 +1,7 @@
 baseurl: /jekyll_demo
 
 theme: jekyll-theme-cayman
+
+paginate: 5
+
+paginate_path: "_posts/page:num"
