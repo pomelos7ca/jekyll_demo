@@ -7,7 +7,7 @@ title: MyBlog
 <ul>
     {% for post in site.posts %}
         <li>
-            {{post.date | date_to_string}}
+            {{post.date}}
             <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
         </li>
     {% endfor %}
